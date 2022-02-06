@@ -1,4 +1,13 @@
-##Write a pyhton script to add key to a dict.
+##Write a python script to add key to a dict.
 d={0:10,1:20}
 d.update({2:30})
+print(d)
+----------------------------------------------------------------------------
+##Concatenate dictionary.
+d1={1:10,2:20}
+d2={3:30,4:40}
+d3={5:50,6:60}
+d={}
+for i in d1,d2,d3:
+    d.update(i)
 print(d)
