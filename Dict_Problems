@@ -11,3 +11,13 @@ d={}
 for i in d1,d2,d3:
     d.update(i)
 print(d)
+------------------------------------------------------------------------------
+#check whether key is present or not
+d
+def keyss(x):
+    if x in d:
+        print("Keys present")
+    else:
+        print("Not Present")
+keyss(x)
+----------------------------------------------------------------------------------
